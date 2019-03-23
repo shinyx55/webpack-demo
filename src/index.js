@@ -2,6 +2,8 @@
 import _ from 'lodash';
 import './style.css';
 import './hello.scss';
+import {area, circumference} from './js/circle';
+import xxx from './js/cube';
 
 console.log('hello webpack dev server');
 
@@ -15,3 +17,6 @@ function component() {
 }
 
 document.body.appendChild(component());
+
+console.log(area(5), circumference(5));
+console.log(xxx(5));
