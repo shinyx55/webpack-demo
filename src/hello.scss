@@ -1,0 +1,12 @@
+$abcd : #000;
+
+body {
+  background-color: $abcd;
+
+  div {
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid red;
+  }
+}
+
